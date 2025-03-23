@@ -24,12 +24,12 @@ async def run():
 
             # List available resources
             response = await session.list_resources()
-            print('\n\resources:')
+            print('\n\nresources:')
             print(response.resources)
 
             # List available prompts
             response = await session.list_prompts()
-            print('\n\resources:')
+            print('\n\nresources:')
             print(response.prompts)
 
             
