@@ -29,7 +29,7 @@ async def run():
 
             # List available prompts
             response = await session.list_prompts()
-            print('\n\nresources:')
+            print('\n\nprompts:')
             print(response.prompts)
 
             
